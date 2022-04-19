@@ -1,4 +1,4 @@
-## Ticket Bot
+ Ticket Bot
 Per avviare il file installate prima le librerie corrette.
 npm install discord.js
 npm install axios

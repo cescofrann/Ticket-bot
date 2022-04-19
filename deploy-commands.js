@@ -96,7 +96,7 @@ const {
 const {
   clientId
 } = require('./config.json');
-
+const t = require('./token.json');
 
 const commands = [];
 const commandFiles = fs.readdirSync('./commands').filter(file => file.endsWith('.js'));
@@ -108,7 +108,7 @@ for (const file of commandFiles) {
 
 const rest = new REST({
   version: '9'
-}).setToken(process.env.token);
+}).setToken(t.token);
 
 rest.put(Routes.applicationCommands(clientId), {
     body: commands

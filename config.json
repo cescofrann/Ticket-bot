@@ -1,0 +1,26 @@
+{
+  "clientId": "960488292875370566",
+
+
+  "parentOpened": "952707296138493972",
+  "parentTransactions": "955192113472106496",
+  "parentJeux": "952707298776727672",
+  "parentAutres": "952707297870770257",
+
+
+  "roleSupport": "952707283429765170",
+
+  
+  "logsTicket": "952707324517163090",
+  "ticketChannel": "952707380276252732",
+
+  "footerText": "Cescofran#3696",
+
+  
+
+  "licensekey" : "64G82-M1LU0-UC7K2-BILZI-9UUFY",
+  "public_api_key" : "1fe4b7c178ff53b4fca0203cb991f45aa23a5110",
+  "version" : "1.0", 
+  "product" : "Ticket Bot",
+  "url" : "http://173.249.59.244:81/api/client"
+}

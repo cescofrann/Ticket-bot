@@ -137,4 +137,4 @@ client.on('interactionCreate', async interaction => {
   };
 });
 
-client.login(require('./token.json').token);
+client.login(process.env.token);
